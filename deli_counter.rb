@@ -10,7 +10,7 @@ def line(katz_deli)
     counter = 1
     katz_deli.each do |person|
       current = "#{counter}. #{person}"
-      #format_line << current
+      format_line << current
       #counter++
     end
     puts "The line is currently: #{katz_deli}"
