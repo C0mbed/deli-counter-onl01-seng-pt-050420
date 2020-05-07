@@ -13,7 +13,7 @@ def line(katz_deli)
       format_line << current
       #counter++
     end
-    puts "The line is currently: #{katz_deli}"
+    puts "The line is currently: #{format_line}"
     
   end
 end
