@@ -9,7 +9,7 @@ def line(katz_deli)
   else
     counter = 0
     katz_deli.each do |person|
-      counter++
+      counter + 1
       current = "#{counter}. #{person}"
       format_line << current
     end
