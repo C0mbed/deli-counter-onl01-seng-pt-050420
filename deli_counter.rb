@@ -23,4 +23,4 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}.  You are number #{current_place} in line."
   return katz_deli
 end
-
+end
