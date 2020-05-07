@@ -13,7 +13,8 @@ def line(katz_deli)
       current = "#{customer_number}. #{person}"
       format_line << current
     end
-    puts "The line is currently: #{format_line}"
+    serving_line = format_line.join(" ")
+    puts "The line is currently: #{serving_line}"
     
   end
 end
