@@ -15,7 +15,7 @@ end
 def take_a_number(katz_deli, name)
   katz_deli << name
   current_place = katz_deli.length
-  puts "Welcome, #{name}.  You are number #{current_place} in line."
+  puts "Welcome, #{name}. You are number #{current_place} in line."
   return katz_deli
 end
 
