@@ -1,10 +1,10 @@
 # Write your code here.
 
 katz_deli = []
-customer_number = 0
 
 def line(katz_deli)
   format_line = []
+  customer_number = 0
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
