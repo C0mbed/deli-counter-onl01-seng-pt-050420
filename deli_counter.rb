@@ -1,6 +1,7 @@
 # Write your code here.
 
 katz_deli = []
+customer_number = 0
 
 def line(katz_deli)
   format_line = []
@@ -9,7 +10,7 @@ def line(katz_deli)
   else
     counter = 0
     katz_deli.each do |person|
-      counter + 1
+      customer_number++
       current = "#{counter}. #{person}"
       format_line << current
     end
