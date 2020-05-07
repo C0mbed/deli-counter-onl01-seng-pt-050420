@@ -13,7 +13,7 @@ def line(katz_deli)
       counter++
     end
     now_serving = format_line.join(" ")
-    puts "The line is currently: #{line_string}"
+    puts "The line is currently: #{now_serving}"
   end
 end
 
