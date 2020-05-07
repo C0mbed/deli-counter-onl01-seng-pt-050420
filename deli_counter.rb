@@ -7,7 +7,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    counter = 1
+    counter = 0
     katz_deli.each do |person|
       counter++
       current = "#{counter}. #{person}"
