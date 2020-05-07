@@ -5,7 +5,7 @@ counter = 1
 
 def build_line(katz_deli)
   now_serving = []
-  katz_deli.each do |person|
+  katz_deli.each {|person| }do 
     now_serving << "#{counter}. #{person}"
     counter++
   end
