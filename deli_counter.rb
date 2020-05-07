@@ -3,6 +3,15 @@
 katz_deli = []
 counter = 1
 
+def build_line(katz_deli)
+  now_serving = []
+  katz_deli.each do |person|
+    now_serving << "#{counter}. #{person}"
+    counter++
+  end
+  return now_serving
+end
+
 def line(katz_deli)
   format_line = []
   if katz_deli.length == 0
