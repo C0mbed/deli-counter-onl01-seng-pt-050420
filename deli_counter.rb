@@ -11,6 +11,7 @@ def line(katz_deli)
     katz_deli.each do |customer|
       format_line << "#{counter}. #{customer}"
       counter++
+    end
     now_serving = format_line.join(" ")
     puts "The line is currently: #{now_serving}"
   end
