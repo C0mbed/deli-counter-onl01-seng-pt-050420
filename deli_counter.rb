@@ -14,6 +14,7 @@ def line(katz_deli)
     end
     now_serving = format_line.join(" ")
     puts "The line is currently: #{now_serving}"
+  end
 end
 
 def take_a_number(katz_deli, name)
