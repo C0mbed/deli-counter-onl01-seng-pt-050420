@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(katz_deli)
   line_string = katz_deli.join(", ")
-  if current_line.length == 0
+  if katz_deli.length == 0
     puts "The line is currently empty"
   else
     puts "The line is currently: #{line_string}"
