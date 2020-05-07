@@ -9,9 +9,9 @@ def line(katz_deli)
   else
     counter = 1
     katz_deli.each do |person|
+      counter++
       current = "#{counter}. #{person}"
       format_line << current
-      counter + 1
     end
     puts "The line is currently: #{format_line}"
     
