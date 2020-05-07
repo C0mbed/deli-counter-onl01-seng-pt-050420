@@ -9,7 +9,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each do |person|
-      customer_number + 1
+      customer_number += 1
       current = "#{customer_number}. #{person}"
       format_line << current
     end
