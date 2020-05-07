@@ -17,7 +17,9 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{katz_deli}"
+    now_serving = build_line(katz_deli)
+    formatted_serving = now_serving.join(" ")
+    puts "The line is currently: #{formatted_serving}"
   end
 end
 
