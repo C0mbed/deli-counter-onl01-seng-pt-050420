@@ -8,10 +8,9 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    counter = 0
     katz_deli.each do |person|
       customer_number + 1
-      current = "#{counter}. #{person}"
+      current = "#{customer_number}. #{person}"
       format_line << current
     end
     puts "The line is currently: #{format_line}"
