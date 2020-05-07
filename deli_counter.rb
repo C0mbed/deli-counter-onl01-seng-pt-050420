@@ -3,7 +3,7 @@
 katz_deli = []
 customer_number = 0
 
-def line(katz_deli)
+def line(katz_deli, customer_number)
   format_line = []
   if katz_deli.length == 0
     puts "The line is currently empty."
